@@ -57,7 +57,10 @@ Add the following to your Claude Desktop configuration file (`claude_desktop_con
         "--from",
         "git+https://github.com/Tilak-Shenoy/mcp-yh-finance.git",
         "yahoofinance"
-    ]
+    ],
+    "env": {
+        "RAPIDAPI_KEY": "YOUR_API_KEY"
+    }
 }
 ```
 
