@@ -51,15 +51,19 @@ A Model Context Protocol (MCP) server that provides access to Yahoo Finance data
 Add the following to your Claude Desktop configuration file (`claude_desktop_config.json`):
 
 ```json
-"YahooFinance": {
-    "command": "uvx",
-    "args": [
-        "--from",
-        "git+https://github.com/Tilak-Shenoy/mcp-yh-finance.git",
-        "yahoofinance"
-    ],
-    "env": {
-        "RAPIDAPI_KEY": "YOUR_API_KEY"
+{
+    "mcpServers": {
+        "YahooFinance": {
+            "command": "uvx",
+            "args": [
+                "--from",
+                "git+https://github.com/Tilak-Shenoy/mcp-yh-finance.git",
+                "yahoofinance"
+            ],
+            "env": {
+                "RAPIDAPI_KEY": "YOUR_API_KEY"
+            }
+        }
     }
 }
 ```
