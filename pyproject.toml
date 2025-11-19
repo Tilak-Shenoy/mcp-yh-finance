@@ -1,0 +1,23 @@
+[project]
+name = "mcp-yh-finance"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.21.2",
+    "requests>=2.32.5",
+]
+
+[project.scripts]
+yahoofinance = "yh_finance.main:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
