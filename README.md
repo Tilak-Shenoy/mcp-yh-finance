@@ -64,7 +64,7 @@ Add the following to your Claude Desktop configuration file (`claude_desktop_con
 }
 ```
 
-This should automatically pull the code and run the tools. Follow [Step 4](##4-get-rapidapi-key) to get your API KEY. You can stop here if you are not interested in making any code changes to the server.
+This should automatically pull the code and run the tools. Follow [Get RapidAPI Key](##4get-rapidapi-key) to get your API KEY. You can stop here if you are not interested in making any code changes to the server.
 
 ## Installation
 
@@ -115,7 +115,7 @@ This should automatically pull the code and run the tools. Follow [Step 4](##4-g
     }
    ```
 
-4. **Get RapidAPI Key**
+## Get RapidAPI Key
    - Sign up at [RapidAPI](https://rapidapi.com/)
    - Subscribe to the [Yahoo Finance 15 API](https://rapidapi.com/sparior/api/yahoo-finance15/)
    - Copy your API key to the env param in the claude_desktop_config.json file
