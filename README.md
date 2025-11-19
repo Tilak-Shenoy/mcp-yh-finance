@@ -64,7 +64,7 @@ Add the following to your Claude Desktop configuration file (`claude_desktop_con
 }
 ```
 
-This should automatically pull the code and run the tools. You can stop here if you are not interested in making any code changes to the server.
+This should automatically pull the code and run the tools. Follow [Step 4](##4-get-rapidapi-key) to get your API KEY. You can stop here if you are not interested in making any code changes to the server.
 
 ## Installation
 
